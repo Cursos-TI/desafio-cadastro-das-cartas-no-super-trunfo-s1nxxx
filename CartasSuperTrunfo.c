@@ -24,6 +24,8 @@ int main() {
     float Area, PIB;
     char Codigo[4], Nome[14], Estado[8];
 
+    printf("\n");   //mero espaço
+
     //CARTA 1
 
     printf("Carta 1\n");
@@ -49,6 +51,8 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
+    printf("\n");   //mero espaço
+
     //Declarações inseridas acima.
 
     printf("CARTA 1\n");
@@ -59,6 +63,8 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+
+    printf("\n");   //mero espaço
 
     //CARTA 2
 
@@ -87,6 +93,8 @@ int main() {
 
     //Declarações inseridas acima.
 
+    printf("\n");   //mero espaço
+
     printf("CARTA 2\n");
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
@@ -95,6 +103,10 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+
+    printf("\n");   //mero espaço
+    
+
 
 
     return 0;
