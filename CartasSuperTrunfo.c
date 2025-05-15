@@ -36,7 +36,7 @@ int main() {
     printf("Digite o código da carta: \n");
     scanf("%s", &Codigo);
 
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome da cidade sem espaços: \n");
     scanf("%s", &Nome);
 
     printf("Digite a população da cidade: \n");
@@ -76,7 +76,7 @@ int main() {
     printf("Digite o código da carta: \n");
     scanf("%s", &Codigo);
 
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome da cidade sem espaços: \n");
     scanf("%s", &Nome);
 
     printf("Digite a população da cidade: \n");
@@ -106,12 +106,6 @@ int main() {
 
     printf("\n");   //mero espaço
     
-
-
-
     return 0;
-
-
-
 
 }
