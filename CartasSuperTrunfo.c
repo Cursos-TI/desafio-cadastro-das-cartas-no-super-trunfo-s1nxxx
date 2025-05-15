@@ -24,6 +24,8 @@ int main() {
     float Area, PIB;
     char Codigo[4], Nome[14], Estado[8];
 
+    //CARTA 1
+
     printf("Carta 1\n");
 
     printf("Digite a letra correspondente ao Estado: \n");
@@ -49,7 +51,7 @@ int main() {
 
     //Declarações inseridas acima.
 
-
+    printf("CARTA 1\n");
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
     printf("Nome: %s\n", Nome);
@@ -57,6 +59,8 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+
+    //CARTA 2
 
     printf("Carta 2\n");
 
@@ -83,7 +87,7 @@ int main() {
 
     //Declarações inseridas acima.
 
-
+    printf("CARTA 2\n");
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
     printf("Nome: %s\n", Nome);
