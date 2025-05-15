@@ -39,13 +39,25 @@ int main() {
     printf("Digite a Area da cidade em quilometros quadrados \n");
     scanf("%f", &Area);
 
-    printf("Digite o PIB da cidade: \n");
+    printf("Digite o PIB da cidade em bilhoes de reais: \n");
     scanf("%f", &PIB);
 
     printf("Digite o numero de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
+    //Declarações inseridas acima.
+
+    printf("Estado: %s\n", Estado);
+    printf("Codigo: %s\n", Codigo);
+    printf("Nome: %s\n", Nome);
+    printf("Populacao: %d\n", Populacao);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
+    printf("Pontos Turisticos: %d\n", PontosTuristicos);
+
+    return 0;
     
+
 
 
 }
