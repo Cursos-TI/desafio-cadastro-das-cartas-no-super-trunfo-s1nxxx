@@ -24,10 +24,12 @@ int main() {
     float Area, PIB;
     char Codigo[4], Nome[14], Estado[8];
 
+    printf("Carta 1\n");
+
     printf("Digite a letra correspondente ao Estado: \n");
     scanf("%s", &Estado);
 
-    printf("Digite o codigo da carta: \n");
+    printf("Digite o código da carta: \n");
     scanf("%s", &Codigo);
 
     printf("Digite o nome da cidade: \n");
@@ -36,16 +38,17 @@ int main() {
     printf("Digite a população da cidade: \n");
     scanf("%d", &Populacao);
 
-    printf("Digite a Area da cidade em quilometros quadrados \n");
+    printf("Digite a área da cidade em quilometros quadrados \n");
     scanf("%f", &Area);
 
-    printf("Digite o PIB da cidade em bilhoes de reais: \n");
+    printf("Digite o PIB da cidade em bilhões de reais: \n");
     scanf("%f", &PIB);
 
-    printf("Digite o numero de pontos turisticos da cidade: \n");
+    printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
     //Declarações inseridas acima.
+
 
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
@@ -55,8 +58,43 @@ int main() {
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
 
+    printf("Carta 2\n");
+
+    printf("Digite a letra correspondente ao Estado: \n");
+    scanf("%s", &Estado);
+
+    printf("Digite o código da carta: \n");
+    scanf("%s", &Codigo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &Nome);
+
+    printf("Digite a população da cidade: \n");
+    scanf("%d", &Populacao);
+
+    printf("Digite a área da cidade em quilometros quadrados \n");
+    scanf("%f", &Area);
+
+    printf("Digite o PIB da cidade em bilhões de reais: \n");
+    scanf("%f", &PIB);
+
+    printf("Digite o número de pontos turisticos da cidade: \n");
+    scanf("%d", &PontosTuristicos);
+
+    //Declarações inseridas acima.
+
+
+    printf("Estado: %s\n", Estado);
+    printf("Codigo: %s\n", Codigo);
+    printf("Nome: %s\n", Nome);
+    printf("Populacao: %d\n", Populacao);
+    printf("Area: %f\n", Area);
+    printf("PIB: %f\n", PIB);
+    printf("Pontos Turisticos: %d\n", PontosTuristicos);
+
+
     return 0;
-    
+
 
 
 
