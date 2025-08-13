@@ -20,9 +20,9 @@ int main() {
     printf("*** Cartas SuperTrunfo ***\n");
 
     int Populacao, PontosTuristicos;
-    float Area, PIB;
+    float Area, PIB, DensidadePopulacional, PIBpercapita;
     char Codigo[4], Nome[14], Estado[8];
-
+    
     printf("\n");   //mero espaço
 
     //CARTA 1
@@ -50,6 +50,10 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
+    DensidadePopulacional = Populacao / Area;
+
+    PIBpercapita = PIB / Populacao;
+
     printf("\n");   //mero espaço
 
     //Declarações inseridas acima.
@@ -62,6 +66,8 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional);
+    printf("PIB per capita: %f\n", PIBpercapita);
 
     printf("\n");   //mero espaço
 
@@ -90,9 +96,13 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
-    //Declarações inseridas acima.
+    DensidadePopulacional = Populacao / Area;
+
+    PIBpercapita = PIB / Populacao;
 
     printf("\n");   //mero espaço
+
+    //Declarações inseridas acima.
 
     printf("CARTA 2\n");
     printf("Estado: %s\n", Estado);
@@ -102,9 +112,10 @@ int main() {
     printf("Area: %f\n", Area);
     printf("PIB: %f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional);
+    printf("PIB per capita: %f\n", PIBpercapita);
 
     printf("\n");   //mero espaço
     
     return 0;
-
 }
