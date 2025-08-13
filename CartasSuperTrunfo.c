@@ -17,16 +17,18 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-    printf("*** Cartas SuperTrunfo ***\n");
-
-    int Populacao, PontosTuristicos;
+    int PontosTuristicos;
+    unsigned long int Populacao;
     float Area, PIB, DensidadePopulacional, PIBpercapita;
     char Codigo[4], Nome[14], Estado[8];
-    
+    float SuperPoder;
+
+    //Superpoder é a soma
+
+    printf("*** Cartas SuperTrunfo ***\n");
     printf("\n");   //mero espaço
 
     //CARTA 1
-
     printf("Carta 1\n");
 
     printf("Digite a letra correspondente ao Estado: \n");
@@ -56,7 +58,7 @@ int main() {
 
     printf("\n");   //mero espaço
 
-    //Declarações inseridas acima.
+    //Declarações inseridas acima e impressões no terminal abaixo
 
     printf("CARTA 1\n");
     printf("Estado: %s\n", Estado);
@@ -72,7 +74,6 @@ int main() {
     printf("\n");   //mero espaço
 
     //CARTA 2
-
     printf("Carta 2\n");
 
     printf("Digite a letra correspondente ao Estado: \n");
@@ -102,7 +103,7 @@ int main() {
 
     printf("\n");   //mero espaço
 
-    //Declarações inseridas acima.
+    //Declarações inseridas acima e impressões no terminal abaixo
 
     printf("CARTA 2\n");
     printf("Estado: %s\n", Estado);
