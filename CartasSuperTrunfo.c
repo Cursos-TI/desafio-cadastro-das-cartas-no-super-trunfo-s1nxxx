@@ -23,7 +23,10 @@ int main() {
     char Codigo[4], Nome[14], Estado[8];
     float SuperPoder;
 
-    //Superpoder é a soma
+    //Superpoder é a soma de todos os atributos numéricos e o inverso da densidade populacional
+    SuperPoder = Populacao + Area + PIB + PontosTuristicos + PIBpercapita + (1/DensidadePopulacional);
+
+    //Soma do superpoder feita acima.
 
     printf("*** Cartas SuperTrunfo ***\n");
     printf("\n");   //mero espaço
@@ -70,6 +73,7 @@ int main() {
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
     printf("Densidade Populacional: %f\n", DensidadePopulacional);
     printf("PIB per capita: %f\n", PIBpercapita);
+    printf("O super poder é de: %f\n", SuperPoder);
 
     printf("\n");   //mero espaço
 
@@ -115,6 +119,7 @@ int main() {
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
     printf("Densidade Populacional: %f\n", DensidadePopulacional);
     printf("PIB per capita: %f\n", PIBpercapita);
+    printf("O super poder é de: %f\n", SuperPoder);
 
     printf("\n");   //mero espaço
     
