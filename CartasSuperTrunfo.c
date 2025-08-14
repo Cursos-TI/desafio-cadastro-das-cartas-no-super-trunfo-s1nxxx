@@ -26,16 +26,6 @@ int main() {
     char Codigo[4], Nome[14], Estado[8];
     float SuperPoder;
 
-    //Superpoder é a soma de todos os atributos numéricos e o inverso da densidade populacional
-    SuperPoder = (float)Populacao + 
-                 Area + 
-                 PIB + 
-                 (float)PontosTuristicos + 
-                 PIBpercapita + 
-                 (1.0f / DensidadePopulacional);
-
-    //Soma do superpoder feita acima.
-
     printf("*** Cartas SuperTrunfo ***\n");
     printf("\n");   //mero espaço
 
@@ -52,7 +42,7 @@ int main() {
     scanf("%s", &Nome);
 
     printf("Digite a população da cidade: \n");
-    scanf("%d", &Populacao);
+    scanf("%lu", &Populacao);  //%lu para unsigned long int
 
     printf("Digite a área da cidade em quilometros quadrados \n");
     scanf("%f", &Area);
@@ -63,26 +53,32 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
+    //Calculo dos atributos derivados adicionados posteriormente
     DensidadePopulacional = Populacao / Area;
-
     PIBpercapita = PIB / Populacao;
 
-    printf("\n");   //mero espaço
+    //Calculo do Super Poder
+    //Superpoder é a soma de todos os atributos numéricos e o inverso da densidade populacional
+    SuperPoder = (float)Populacao + 
+                 Area + 
+                 PIB + 
+                 (float)PontosTuristicos + 
+                 PIBpercapita + 
+                 (1.0f / DensidadePopulacional);
 
-    //Declarações inseridas acima e impressões no terminal abaixo
+    //Exibição dos dados abaixo
 
-    printf("CARTA 1\n");
+    printf("\nCARTA 1\n");
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
     printf("Nome: %s\n", Nome);
-    printf("Populacao: %d\n", Populacao);
-    printf("Area: %f\n", Area);
+    printf("Populacao: %lu\n", Populacao);
+    printf("Area: %.2f\n", Area);
     printf("PIB: %.2f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
-    printf("Densidade Populacional: %f\n", DensidadePopulacional);
-    printf("PIB per capita: %f\n", PIBpercapita);
+    printf("Densidade Populacional: %.2f\n", DensidadePopulacional);
+    printf("PIB per capita: %.2f\n", PIBpercapita);
     printf("O super poder é de: %.2f\n", SuperPoder);
-
     printf("\n");   //mero espaço
 
     //CARTA 2
@@ -98,7 +94,7 @@ int main() {
     scanf("%s", &Nome);
 
     printf("Digite a população da cidade: \n");
-    scanf("%d", &Populacao);
+    scanf("%lu", &Populacao);
 
     printf("Digite a área da cidade em quilometros quadrados \n");
     scanf("%f", &Area);
@@ -109,26 +105,32 @@ int main() {
     printf("Digite o número de pontos turisticos da cidade: \n");
     scanf("%d", &PontosTuristicos);
 
+    //Calculo dos atributos derivados adicionados posteriormente
     DensidadePopulacional = Populacao / Area;
-
     PIBpercapita = PIB / Populacao;
 
-    printf("\n");   //mero espaço
+    //Calculo do Super Poder
+    //Superpoder é a soma de todos os atributos numéricos e o inverso da densidade populacional
+    SuperPoder = (float)Populacao + 
+                 Area + 
+                 PIB + 
+                 (float)PontosTuristicos + 
+                 PIBpercapita + 
+                 (1.0f / DensidadePopulacional);
 
-    //Declarações inseridas acima e impressões no terminal abaixo
+    //Exibição dos dados abaixo
 
-    printf("CARTA 2\n");
+    printf("\nCARTA 2\n");
     printf("Estado: %s\n", Estado);
     printf("Codigo: %s\n", Codigo);
     printf("Nome: %s\n", Nome);
-    printf("Populacao: %d\n", Populacao);
-    printf("Area: %f\n", Area);
+    printf("Populacao: %lu\n", Populacao);
+    printf("Area: %.2f\n", Area);
     printf("PIB: %.2f\n", PIB);
     printf("Pontos Turisticos: %d\n", PontosTuristicos);
-    printf("Densidade Populacional: %f\n", DensidadePopulacional);
-    printf("PIB per capita: %f\n", PIBpercapita);
+    printf("Densidade Populacional: %.2f\n", DensidadePopulacional);
+    printf("PIB per capita: %.2f\n", PIBpercapita);
     printf("O super poder é de: %.2f\n", SuperPoder);
-    
     printf("\n");   //mero espaço
     
     return 0;
