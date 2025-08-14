@@ -133,5 +133,17 @@ int main() {
     printf("O super poder é de: %.2f\n", SuperPoder);
     printf("\n");   //mero espaço
     
+     //Comparações
+
+    printf("=== Resultados das Comparações (1 = Carta 1 vence, 0 = Carta 2 vence) ===\n");
+
+    printf("População: %d\n", Populacao1 > Populacao2);
+    printf("Área: %d\n", Area1 > Area2);
+    printf("PIB: %d\n", PIB1 > PIB2);
+    printf("Pontos Turisticos: %d\n", PontosTuristicos1 > PontosTuristicos2);
+    printf("Densidade Populacional (menor vence): %d\n", DensidadePopulacional1 < DensidadePopulacional2);
+    printf("PIB per capita: %d\n", PIBpercapita1 > PIBpercapita2);
+    printf("Super Poder: %d\n", SuperPoder1 > SuperPoder2);
+
     return 0;
 }
